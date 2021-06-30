@@ -1,1 +1,1 @@
-web: node rutaAlArchivoPrincipal.js
+web: ./src/index.js
