@@ -1,0 +1,93 @@
+#register{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #ebebeb;
+    width:35vw;
+    align-items: center;
+
+}
+#register p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 25px;
+    align-self: flex-start;
+}
+#register input {
+    width:30vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 3%;
+    height: 3vh;
+    border: none;
+    margin:2vw;
+    align-self: center;
+}
+#register article{
+    display: flex;
+    width: 30vw;
+}
+#artVertical{
+    display: flex;
+    flex-direction: column;
+    
+}
+#artVertical input{
+    width: 10vw;
+
+}
+
+#artVertical article{
+    display: flex;
+}
+#artVertical label{
+    padding-top: 4vh;
+}
+.boton{
+    width: 30vw;
+    height: 34px;
+    margin: 2vw;
+    background-color: #1259c3;
+    color:white;
+    border:none;
+    border-radius: 3%;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+.fecha{
+    color: black;
+    font-family: sans-serif;
+    padding-left: 25px;
+    font-weight: bold;
+}
+.interes{
+    color: black;
+    font-family: sans-serif;
+    padding-left: 25px;
+    font-weight: bold;
+}
+.perfil-usuario{
+    color: black;
+    font-family: sans-serif;
+    padding-left: 25px;
+    font-weight: bold;
+}
+.check-intereses{
+    
+    text-align:left;
+    font-family: sans-serif;
+    margin-left: -95px;
+}
+.tipo-usuario{
+    text-align:left;
+    font-family: sans-serif;
+    margin-left: -120px;
+}
+
+
+#userProfile {
+    display: flex;
+    align-items: center;
+}
